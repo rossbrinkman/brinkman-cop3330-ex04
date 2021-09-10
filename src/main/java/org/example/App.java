@@ -10,12 +10,21 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "What is the quote?" );
+        System.out.println( "Enter a noun: " );
 
         Scanner scanner = new Scanner(System.in);
-        String quote = scanner.nextLine();
-        String author;
+        String noun, verb, adjective, adverb;
+        noun = scanner.nextLine();
 
-        System.out.println( "Who said it?" );
+        System.out.println( "Enter a verb: " );
+        verb = scanner.nextLine();
+
+        System.out.println( "Enter an adjective: " );
+        adjective = scanner.nextLine();
+
+        System.out.println( "Enter an adverb: " );
+        adverb = scanner.nextLine();
+
+        System.out.println( "Do you " + verb + " your " + adjective + " " + noun + " " + adverb + "? That's Hilarious!");
     }
 }
