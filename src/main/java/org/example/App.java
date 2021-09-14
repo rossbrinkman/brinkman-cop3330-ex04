@@ -25,6 +25,6 @@ public class App
         System.out.println( "Enter an adverb: " );
         adverb = scanner.nextLine();
 
-        System.out.println( "Do you " + verb + " your " + adjective + " " + noun + " " + adverb + "? That's Hilarious!");
+        System.out.printf("Do you %s your %s %s %s? That's Hilarious!%n", verb, adjective, noun, adverb);
     }
 }
